@@ -15,6 +15,23 @@ const routes: Routes = [
     path: 'a-cinco-passos-de-voce',
     loadChildren: () => import('./a-cinco-passos-de-voce/a-cinco-passos-de-voce.module').then( m => m.ACincoPassosDeVocePageModule)
   },
+  {
+    path: 'a-era-de-ultron',
+    loadChildren: () => import('./a-era-de-ultron/a-era-de-ultron.module').then( m => m.AEraDeUltronPageModule)
+  },
+  {
+    path: 'vingadores-ultimato',
+    loadChildren: () => import('./vingadores-ultimato/vingadores-ultimato.module').then( m => m.VingadoresUltimatoPageModule)
+  },
+  {
+    path: 'minions-a-origem',
+    loadChildren: () => import('./minions-a-origem/minions-a-origem.module').then( m => m.MinionsAOrigemPageModule)
+  },
+  {
+    path: 'viuva-negra',
+    loadChildren: () => import('./viuva-negra/viuva-negra.module').then( m => m.ViuvaNegraPageModule)
+  },
+
 ];
 
 @NgModule({
